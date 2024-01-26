@@ -1,0 +1,19 @@
+.button-create{
+    width: 100%;
+    height: 5vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-create button{
+    height: 30px;
+    padding: 0px 10px;
+    border: none;
+    background-color: rgb(10, 70, 186, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+}

@@ -1,0 +1,48 @@
+.lista-card{
+    width: 60%;
+    background-color: #fafafa;
+    height: 30%;
+    margin:  20px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    transition: 0.2s ;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.item-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.card-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.name-card{
+    width: 70%;
+    font-size: 14px;
+}
+
+.salary{
+    font-size: 14px;
+    font-weight: bold;
+    width: 30%;
+}
+
+.card-right{
+    font-size: 17px;
+}
+
+.lista-card:hover{
+    transform: scale(1);
+}
+

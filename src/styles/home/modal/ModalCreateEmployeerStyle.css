@@ -1,0 +1,91 @@
+.fundo-modal{
+    position: fixed;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-create{
+    background-color: #fafafa;
+    width: 25%;
+    height: 60%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 0px;
+}
+
+.button-create-modal{
+    width: 100%;
+    height: 5%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-create-modal button{
+    height: 10%;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.itens-create-modal{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.itens-create-modal h1{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.formulario-cadastro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.formulario-cadastro input{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.button-enviar{
+    width: 30%
+}
+
+.button-enviar button{
+    width: 100%;
+    height: 30px;
+    padding: 0px 10px;
+    border: none;
+    background-color: rgb(10, 90, 126);
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
